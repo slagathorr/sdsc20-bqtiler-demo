@@ -60,4 +60,10 @@ LIMIT
   10
 ```
 
+#### Sample of OpenAQ data
+
+There is a sample dataset (~600MB) of data from [OpenAQ](https://openaq.org/) that you will be loading into BigQuery to analyze. This is currently hosted on a public GCS bucket, and you can run the following command to load it into BigQuery:
+
+`bq load --autodetect --replace --source_format=NEWLINE_DELIMITED_JSON geo.geo_dataset_openaq_demo gs://mah-bukkits/openaq-20201025/openaq_carto_demo.zip`
+
 The queries will be added to this repository shortly after the presentation at [SDSC 20](https://spatial-data-science-conference.com/)!
