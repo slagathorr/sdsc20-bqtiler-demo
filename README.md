@@ -7,7 +7,8 @@ Some important notes and housekeeping before we begin.
 - If this is your first time using Google Cloud, be sure to start your [free trial](https://cloud.google.com/free) and have your project created!
 - This uses [Google BigQuery](https://cloud.google.com/bigquery) which can incur costs. Be sure to understand how costs will be incurred to your project through the [pricing page](https://cloud.google.com/bigquery/pricing), and be sure to understand the [Google Cloud Trial and Free Tiers](https://cloud.google.com/free) as well.
 - This also uses the CARTO BigQuery Tiler. You need to be a part of the beta for this to work. Find more information on this [here](https://carto.com/bigquery/beta/).
-- For tasks done in the command line, you can leverage the [Cloud Shell](https://cloud.google.com/shell) which has the command line tools pre-installed, or you can [install the Google Cloud SDK](https://cloud.google.com/sdk/docs/install) to your local machine.
+- You'll also, of course, need a [CARTO account](https://carto.com/signup)!
+- For tasks done in the command line for Google Cloud and BigQuery, you can leverage the [Cloud Shell](https://cloud.google.com/shell) which has the command line tools pre-installed, or you can [install the Google Cloud SDK](https://cloud.google.com/sdk/docs/install) to your local machine.
 - In the command line, be sure to initialize things by running `gcloud auth login` to set your user, and `gcloud init` to set your default project.
 
 ## Load the data before starting this!
